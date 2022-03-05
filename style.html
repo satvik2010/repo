@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Char Counter app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Real Time Character Counter</h2>
+        <p>
+            Check your english text for grammar, spelling and punctuation errors with Satvik Singh's real time char Counter
+        </p>
+        <textarea name="" id="textarea" class="textarea" maxlength="150"spellcheck="true" placeholder="Please write here"></textarea>
+        <button onclick="copyText()"> Copy Text</button>
+        <div class="counter-container">
+            <p>Total Character : <span id="charcount" value="0">0</span></p>
+            <p>Remaining Characters : <span id="char-count">150</span></p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
